@@ -33,6 +33,7 @@ public class IntroScreen extends AppCompatActivity {
     private TextView app_title;
     private ImageView app_logo;
     private Animation animFade;
+    //**//
     public static List<String> catList = new ArrayList<>();
     private FirebaseFirestore firestore;
 
