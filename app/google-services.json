@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525722834853",
+    "firebase_url": "https://samanyagyan-51862.firebaseio.com",
+    "project_id": "samanyagyan-51862",
+    "storage_bucket": "samanyagyan-51862.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525722834853:android:7a4dd42b898148f539ba4c",
+        "android_client_info": {
+          "package_name": "SSJPrajwol.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525722834853-vit36rqk2jekcvfbqhq30v0fln89ta0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "SSJPrajwol.com",
+            "certificate_hash": "44e0c06b1d84923fd79958a60e305cccb8748d5e"
+          }
+        },
+        {
+          "client_id": "525722834853-blqrgbrn9ddc576e41h4bq71ote6js0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFQdOUKSDiAWgO7j0NH2ANKrc4rz0KbyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525722834853-blqrgbrn9ddc576e41h4bq71ote6js0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

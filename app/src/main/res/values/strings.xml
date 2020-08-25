@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Samanya Gyan</string>
+    <string name="sets">Sets</string>
+    <string name="select_a_category">Select a category</string>
+    <string name="let_s_quiz">Let\'s Quiz</string>
+    <string name="samanya_gyan">Samanya Gyan</string>
+    <string name="_1_10">1/10</string>
+    <string name="question">Question</string>
+    <string name="congratulations">CONGRATULATIONS! 🎉🎊</string>
+    <string name="you_scored">YOU SCORED</string>
+    <string name="done">Done</string>
+</resources>
