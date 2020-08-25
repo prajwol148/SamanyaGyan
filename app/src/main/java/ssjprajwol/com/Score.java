@@ -1,4 +1,4 @@
-package SSJPrajwol.com;
+package ssjprajwol.com;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,7 +26,7 @@ public class Score extends AppCompatActivity {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Score.this,MainActivity.class);
+                Intent intent = new Intent(Score.this,Category.class);
                 Score.this.startActivity(intent);
                 Score.this.finish();
             }

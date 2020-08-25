@@ -1,4 +1,4 @@
-package SSJPrajwol.com;
+package ssjprajwol.com;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -22,7 +22,6 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
@@ -30,7 +29,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.ArrayList;
 import java.util.List;
 
-import static SSJPrajwol.com.Sets.category_id;
+import static ssjprajwol.com.Sets.category_id;
 
 public class Questions extends AppCompatActivity implements View.OnClickListener {
 
@@ -131,7 +130,7 @@ public class Questions extends AppCompatActivity implements View.OnClickListener
     }
 
     private void setQuestion() {
-        timer.setText(String.valueOf(10));
+        timer.setText(String.valueOf(20));
 
         question.setText(QuestionModelList.get(0).getQuestion());
 
@@ -148,10 +147,10 @@ public class Questions extends AppCompatActivity implements View.OnClickListener
     }
 
     private void startTimer() {
-        count = new CountDownTimer(12000,1000) {
+        count = new CountDownTimer(22000,1000) {
             @Override
             public void onTick(long l) {
-                if(l <10000)
+                if(l <20000)
                     timer.setText(String.valueOf(l/1000));
             }
 
@@ -265,7 +264,7 @@ public class Questions extends AppCompatActivity implements View.OnClickListener
             playAnim(option4,0,4);
 
             question_counter.setText(String.valueOf(questionNumber+1)+"/"+String.valueOf(QuestionModelList.size()));
-            timer.setText(String.valueOf(10));
+            timer.setText(String.valueOf(20));
 
             startTimer();
 

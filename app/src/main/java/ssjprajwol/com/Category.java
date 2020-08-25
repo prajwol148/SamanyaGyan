@@ -1,4 +1,4 @@
-package SSJPrajwol.com;
+package ssjprajwol.com;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -12,7 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import java.util.ArrayList;
 import java.util.List;
 
-import static SSJPrajwol.com.IntroScreen.catList;
+import static ssjprajwol.com.IntroScreen.catList;
 
 public class Category extends AppCompatActivity {
     List<String> titles, catlist;

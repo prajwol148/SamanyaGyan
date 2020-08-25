@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="SSJPrajwol.com">
+    package="ssjprajwol.com">
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -10,18 +10,18 @@
         android:roundIcon="@mipmap/main_icon2_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Score"></activity>
-        <activity android:name=".Questions" />
-        <activity android:name=".Sets" />
-        <activity android:name=".Category" />
-        <activity android:name=".IntroScreen">
+        <activity android:name="ssjprajwol.com.Score"></activity>
+        <activity android:name="ssjprajwol.com.Questions" />
+        <activity android:name="ssjprajwol.com.Sets" />
+        <activity android:name="ssjprajwol.com.Category" />
+        <activity android:name="ssjprajwol.com.IntroScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="ssjprajwol.com.MainActivity">
         </activity>
     </application>
 

@@ -1,4 +1,4 @@
-package SSJPrajwol.com;
+package ssjprajwol.com;
 
 import org.junit.Test;
 

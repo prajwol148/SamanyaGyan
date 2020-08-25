@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:525722834853:android:7a4dd42b898148f539ba4c",
         "android_client_info": {
-          "package_name": "SSJPrajwol.com"
+          "package_name": "ssjprajwol.com"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "525722834853-vit36rqk2jekcvfbqhq30v0fln89ta0m.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "SSJPrajwol.com",
+            "package_name": "ssjprajwol.com",
             "certificate_hash": "44e0c06b1d84923fd79958a60e305cccb8748d5e"
           }
         },

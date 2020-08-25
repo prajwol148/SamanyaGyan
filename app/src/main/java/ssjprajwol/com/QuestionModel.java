@@ -1,4 +1,4 @@
-package SSJPrajwol.com;
+package ssjprajwol.com;
 
 public class QuestionModel {
     String question, option1, option2, option3, option4;

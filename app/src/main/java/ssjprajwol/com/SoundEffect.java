@@ -1,4 +1,4 @@
-package SSJPrajwol.com;
+package ssjprajwol.com;
 
 import android.content.Context;
 import android.media.MediaPlayer;
